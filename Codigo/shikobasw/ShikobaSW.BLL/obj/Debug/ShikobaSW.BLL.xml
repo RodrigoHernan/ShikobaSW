@@ -1,0 +1,72 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ShikobaSW.BLL
+</name>
+</assembly>
+<members>
+<member name="M:ShikobaSW.Usuario.BLL.GestionCliente.GuardarCliente(ShikobaSW.Biz.BIZ.Entities.Cliente)">
+	<summary>
+ guarda el cliente en la BD 
+ </summary>
+	<param name="unCliente"></param>
+	<returns>en caso de existir un error o que no se pueda guardar, devuelve False</returns>
+	<remarks></remarks>
+</member><member name="M:ShikobaSW.Usuario.BLL.GestionCliente.ExisteCliente(ShikobaSW.Biz.BIZ.Entities.Cliente)">
+	<summary>
+ Verifica si el cliente ya  existe en el sistema 
+ </summary>
+	<param name="unCliente"></param>
+	<returns>En caso de existir el cliente devuelve true </returns>
+	<remarks></remarks>
+</member><member name="M:ShikobaSW.Usuario.BLL.GestionCliente.BuscarCliente(System.Int32)">
+	<summary>
+ Busca un cliente en la base de datos antes comprueba que el DNI exista. en Caso de no existir se llama a la excepcion 
+ </summary>
+	<param name="DNI"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ShikobaSW.Usuario.BLL.GestionCliente.comprobarDNI(System.Int32)">
+	<summary>
+ Comprueba si el Nro de DNI es un numero valido en caso de no existir se llama a la excepcion exClienteNoExiste
+ </summary>
+	<param name="DNI">DNI que se desea buscar en la BD</param>
+	<remarks></remarks>
+</member><member name="P:ShikobaSW.Usuario.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:ShikobaSW.Usuario.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:ShikobaSW.Usuario.My.Resources.Resources">
+	<summary>
+ A strongly-typed resource class, for looking up localized strings, etc.
+ </summary>
+</member><member name="M:ShikobaSW.Usuario.BLL.GestorTurno.TraerTurnosFecha(System.DateTime,System.Int32,ShikobaSW.Biz.BIZ.Entities.Servicio)">
+	<summary>
+ Trae Todo los turnos DISPONIBLES para el dia, Turno, servicio y el OSoPrePa solicitado
+ </summary>
+	<param name="Fecha">fecha que se desea buscar</param>
+	<param name="IdOSoPrePa">Id de Obra social, Prepaga o particular</param>
+	<param name="Servicio">Servicio solicitado</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ShikobaSW.Usuario.BLL.GestorTurno.comprobarfecha(System.DateTime)">
+	<summary>
+ comprueba que la fecha enviada sea mayor al dia de la fecha, en caso contrario llama a la excepcion ExFechaInvalida
+ </summary>
+	<param name="Fecha">fecha a comprobar</param>
+	<remarks></remarks>
+</member><member name="M:ShikobaSW.Usuario.BLL.GestorTurno.Guardar(ShikobaSW.Biz.BIZ.Entities.Turno)">
+	<summary>
+ Guarda en la tabla turnos el turno enviado  
+ </summary>
+	<param name="unTurno"></param>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

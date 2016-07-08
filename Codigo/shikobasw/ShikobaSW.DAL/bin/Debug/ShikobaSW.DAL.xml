@@ -1,0 +1,81 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ShikobaSW.DAL
+</name>
+</assembly>
+<members>
+<member name="M:ShikobaSW.DAL.DAL.Turno.TraerTurnosDisponiblesFecha(System.DateTime,System.Int32,ShikobaSW.Biz.BIZ.Entities.Servicio)">
+	<summary>
+ 'se genera la lista de turnos totales segun el dia de la semana, el servicio y el OSoPrePa
+ </summary>
+	<param name="Fecha">fecha a la cual se desea traer los turnos disponibles</param>
+	<param name="OSoPrePa">numero de ObraSocial/Prepaga/Particular del cual se desea buscar los turnos disponibles</param>
+	<param name="servicio">Servicio que se desea buscar los turnos disponibles</param>
+	<returns>Lista de Turnos disponibles list (of Turnos) </returns>
+	<remarks></remarks>
+</member><member name="M:ShikobaSW.DAL.DAL.Turno.Guardar(ShikobaSW.Biz.BIZ.Entities.Turno)">
+	<summary>
+ Guarda en la base de datos el turno seleccionado 
+ </summary>
+	<param name="unTurno">Turno que se desea guardar</param>
+	<remarks></remarks>
+</member><member name="M:ShikobaSW.DAL.DAL.Turno.TraerTurnosOcupados(System.DateTime,Ramos.Framework.Persistencia.Conexion)">
+	<summary>
+ Trae todos los turnos Ocupados. Se debe establecer una conexion antes 
+ </summary>
+	<param name="Fecha">Fecha que se desea traer los turnos ocupados</param>
+	<param name="c">conexion establecida de la bd</param>
+	<returns>lista de turnos ocupados</returns>
+	<remarks></remarks>
+</member><member name="P:ShikobaSW.DAL.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:ShikobaSW.DAL.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:ShikobaSW.DAL.My.Resources.Resources">
+	<summary>
+ A strongly-typed resource class, for looking up localized strings, etc.
+ </summary>
+</member><member name="M:ShikobaSW.DAL.DAL.Servicio.TraerTodos">
+	<summary>
+ Trae una lista con todos los servicios disponibles
+ </summary>
+	<returns>lista de biz.Servicio</returns>
+	<remarks></remarks>
+</member><member name="M:ShikobaSW.DAL.DAL.Servicio.TiempoServicio(ShikobaSW.Biz.BIZ.Entities.Servicio)">
+	<summary>
+ Busca en la tabla Servicio el tiempo estimado en minutos de cada servicio
+ </summary>
+	<param name="Servicio">clase servicio que se desea buscar el tiempo estimaddo</param>
+	<returns>tiempo estimado en minutos</returns>
+	<remarks></remarks>
+</member><member name="M:ShikobaSW.DAL.DAL.Cliente.Comprobar(System.Int32,System.String)">
+	<summary>
+ comprueba si el si la informacion a buscar existe en la celda elegida de la base de datos
+ </summary>
+	<param name="InformacionABuscar">informacion que se desea comprobar si existe en la base de datos</param>
+	<param name="NombreDeCelda">nombre del atributo que se desea buscar en la base de datos</param>
+	<returns>TRUE si la informacion buscada existe en BD</returns>
+	<remarks></remarks>
+</member><member name="M:ShikobaSW.DAL.DAL.Cliente.GuardarCliente(ShikobaSW.Biz.BIZ.Entities.Cliente)">
+	<summary>
+ Guarda en la base de datos el Cliente que es enviado en la funcion como un nuevo registro 
+ </summary>
+	<param name="unCliente">Cliete que se desea guarda</param>
+	<remarks></remarks>
+</member><member name="M:ShikobaSW.DAL.DAL.Cliente.BuscarCliente(System.Int32)">
+	<summary>
+ Se ingresa un DNI y el mismo retorna una instancia de la clase cliente que pertenece el DNI
+ </summary>
+	<param name="DNI"></param>
+	<returns>Cliente si el cliente no existe retorna nothing</returns>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

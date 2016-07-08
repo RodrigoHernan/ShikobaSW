@@ -1,0 +1,3 @@
+C:\Users\Usuario\Dropbox\visual studio\Codigo\ShikobaSW\ShikobaSW.Usuario\obj\Debug\ShikobaSW.Usuario.vbprojResolveAssemblyReference.cache
+C:\Users\Usuario\Dropbox\visual studio\Codigo\ShikobaSW\ShikobaSW.Usuario\obj\Debug\ShikobaSW.Usuario.Resources.resources
+C:\Users\Usuario\Dropbox\visual studio\Codigo\ShikobaSW\ShikobaSW.Usuario\obj\Debug\ShikobaSW.Usuario.vbproj.GenerateResource.Cache

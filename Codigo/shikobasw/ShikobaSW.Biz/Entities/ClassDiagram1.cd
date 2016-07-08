@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ShikobaSW.Biz.BIZ.Entities.Profesional">
+    <Position X="8" Y="1.25" Width="2.25" />
+    <AssociationLine Name="Servicio" Type="ShikobaSW.Biz.BIZ.Entities.Servicio">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="1.391" Y="0.074" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="ListaProfecionalOSoPrePa" Type="ShikobaSW.Biz.BIZ.Entities.OsoPrePaQueAtiende" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.125" Y="3.892" />
+        <Point X="8.125" Y="7.494" />
+        <Point X="5.75" Y="7.494" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAJEAAAkAAACgAgAAAEAAAAAAAIgIAAAAAA=</HashCode>
+      <FileName>Entities\Profesional.vb</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Servicio" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="DiasQueAtiende" />
+      <Property Name="ListaTurnos" />
+      <Property Name="ListaProfecionalOSoPrePa" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="ShikobaSW.Biz.BIZ.Entities.Servicio">
+    <Position X="4.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAgAAEAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Servicio.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShikobaSW.Biz.BIZ.Entities.Turno">
+    <Position X="4.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAIAAAAAAAAAgBAAAAMAAAACACAABAAIABAAAAAg=</HashCode>
+      <FileName>Entities\Turno.vb</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Servicio" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ShikobaSW.Biz.BIZ.Entities.Cliente">
+    <Position X="0.5" Y="1.25" Width="2.25" />
+    <AssociationLine Name="Turnos" Type="ShikobaSW.Biz.BIZ.Entities.Turno">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.162" Y="0.164" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAEEAAAgAAAAAEAAAAgAACABAAAAAg=</HashCode>
+      <FileName>Entities\Cliente.vb</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="unOsPrePa" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Turnos" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="ShikobaSW.Biz.BIZ.Entities.DiasQueAtiende">
+    <Position X="9.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAgAAAAAAAAAAAAAAIAAQIAAAAAAAA=</HashCode>
+      <FileName>Entities\DiasQueAtiende.vb</FileName>
+      <NewMemberFileName>Entities\OSsPrePa.vb</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShikobaSW.Biz.BIZ.Entities.OsoPrePa">
+    <Position X="0.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAgAAgAAAAAAAA=</HashCode>
+      <FileName>Entities\OSsPrePa.vb</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="ListaProfesionales" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="ShikobaSW.Biz.BIZ.Entities.OsoPrePaQueAtiende">
+    <Position X="3" Y="6.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAAAAAgAAIAAAAAAAA=</HashCode>
+      <FileName>Entities\OsoPrePaQueAtiende.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShikobaSW.Biz.BIZ.Entities.AusenciaProfesional">
+    <Position X="11.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAGAACAAAAiAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Entities\AusenciaProfecional.vb</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="unProfesional" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

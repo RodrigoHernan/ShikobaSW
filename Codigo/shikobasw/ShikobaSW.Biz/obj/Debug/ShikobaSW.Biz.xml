@@ -1,0 +1,48 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ShikobaSW.Biz
+</name>
+</assembly>
+<members>
+<member name="P:ShikobaSW.Biz.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:ShikobaSW.Biz.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:ShikobaSW.Biz.My.Resources.Resources">
+	<summary>
+ A strongly-typed resource class, for looking up localized strings, etc.
+ </summary>
+</member><member name="T:ShikobaSW.Biz.BIZ.Entities.DiasQueAtiende">
+	<summary>
+ Esta clase contiene la informcion relacionada acerca de si posee Obra Social,
+ Prepaga o es Particular. En caso de ser particular el idOSoPrePa es = a 1
+ </summary>
+</member><member name="T:ShikobaSW.Biz.BIZ.Entities.OsoPrePa">
+	<summary>
+ Esta clase contiene la informcion relacionada acerca de si posee Obra Social,
+ Prepaga o es Particular. En caso de ser particular el idOSoPrePa es = a 1
+ </summary>
+</member><member name="P:ShikobaSW.Biz.BIZ.Entities.Turno.EsSobreturno">
+	<summary>
+ en caso de ser true o 1 significa que es un sobreturno
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:ShikobaSW.Biz.BIZ.Entities.Turno.Estado">
+	<summary>
+ esta property indica el estado en que se encuentra el servicio 
+ </summary>
+	<value>1: Reservado 2: En Espera 3:Concretado 4: No Concretado</value>
+	<returns></returns>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

@@ -1,0 +1,179 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Ramos.Framework
+</name>
+</assembly>
+<members>
+<member name="M:Ramos.Framework.validadores.validadores.FechaMayorAHoy(System.String)">
+	<summary>
+ Si la fecha ingresada es mayor a HOY, devuelve true
+ </summary>
+	<param name="unaFecha"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.validadores.validadores.CadenaEstaVacia(System.DateTime)">
+	<summary>
+ Si la cadena = String.Empty devuelve true
+ </summary>
+	<param name="unaCadena"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.validadores.validadores.EsFechaValida(System.String)">
+	<summary>
+ Si el texto es fecha, retorna true, sino tira false
+ </summary>
+	<param name="unTexto"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.validadores.validadores.EsNumeroValido(System.Object)">
+	<summary>
+ Si el texto es numero, retorna true, sino false
+ </summary>
+	<param name="unTexto"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Funciones.matematicas.redondear(System.Decimal,System.Int32)">
+	<summary>
+ ingreso un numero y lo redondea la cantidad de decimales deseada.
+ </summary>
+	<param name="unNumero">numero que se desea redondear</param>
+	<param name="cantidadDecimales">cantidad de decimales</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Funciones.matematicas.ObtenerNumeroAleatorio(System.Int32,System.Int32)">
+	<summary>
+ Entrega un numero aleatorio iniciando desde "DESDE" hasta "HASTA"
+ </summary>
+	<param name="desde"></param>
+	<param name="hasta"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Funciones.matematicas.CerosAlaIzquierda(System.Int32,System.Int32)">
+	<summary>
+ rellena la cantidad de ceros a la izquierda para llegar a la cantidad de caracteres que indica "cantidad de ceros"
+ ej: resultado = CerosAlaIzquierda(123, 5) ¨(resultado igual 00123)
+ </summary>
+	<param name="unNumero"></param>
+	<param name="CantidadCeros"></param>
+	<returns>string </returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Funciones.matematicas.AplicarDescuento(System.Int32,System.Int32)">
+	<summary>
+ devuelve el importe aplicando el descuento del porcentaje ingresado. (ejemplo: AplicarDescuento(100, 10) = 90)
+ </summary>
+	<param name="ImporteNeto"></param>
+	<param name="PorcentajeDescontar"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Funciones.fecha.Hoy">
+	<summary>
+ devuelve el dia de hoy
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Funciones.fecha.Ahora">
+	<summary>
+ devuelve la hora de hoy
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Funciones.Cadenas.largo(System.String)">
+	<summary>
+ entrega el largo de una cadena cantidad de caracteres.
+ </summary>
+	<param name="unaCadena">string a medir</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Funciones.Cadenas.CompararCadena(System.String,System.String)">
+	<summary>
+ compara los dos string si el resultado es positivo la primer cadena es mayor. si es negativo la segunda cadena es mayor
+ </summary>
+	<param name="unaCadena">primer string a comparar</param>
+	<param name="otraCadena">segundo string a comparar</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Funciones.Cadenas.MAYUSCULA(System.String)">
+	<summary>
+ convierte toda la cadena en mayuscula
+ </summary>
+	<param name="unaCadena"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Funciones.Cadenas.minuscula(System.String)">
+	<summary>
+ convierte toda la cadena en minuscula
+ </summary>
+	<param name="unaCadena"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Funciones.Cadenas.UnirLista(System.String,System.Collections.Generic.List{System.String})">
+	<summary>
+ recibe una lista de strings y un caracter y devuelve un string separado por dicho caracter
+ </summary>
+	<param name="listaCadena">lista de cadenas a unir</param>
+	<param name="unaCadena">caracter separador </param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Funciones.Cadenas.BorrarBasuraIzquierda(System.String,System.String)">
+	<summary>
+ analiza una una cadena y borra los datos ubicados a la izquierda de la misma 
+ resultado= BorrarBasuraIzquierda(qwer@hola,@) (resultado = hola
+ </summary>
+	<param name="listaCadena">cadena a analizar</param>
+	<param name="unCaracter">parametro a comparar</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Funciones.Cadenas.BorrarBasuraDerecha(System.String,System.String)">
+	<summary>
+ analiza una una cadena y borra los datos ubicados a la izquierda de la misma 
+ resultado= BorrarBasuraDerecha(hola@qwer,@) (resultado = hola
+ </summary>
+	<param name="listaCadena">cadena a analizar</param>
+	<param name="unCaracter">parametro a comparar</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Funciones.Cadenas.EntreMarcas(System.String,System.Char,System.Char)">
+	<summary>
+ analiza una una cadena y borra los datos ubicados entre las marcas
+ resultado= EntreMarcas(asdfa@hola@kajshd,@) (resultado = hola
+ </summary>
+	<param name="listaCadena">cadena a analizar</param>
+	<param name="PrimerMarca">parametro a comparar</param>
+	<param name="SegundaMarca">parametro a comparar</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Funciones.Cadenas.SioNO(System.Boolean)">
+	<summary>
+ ingresas el booleano, si es true devuelve si y si es false devuelve no 
+ </summary>
+	<param name="Acomprar"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Funciones.Cadenas.Reemplazar(System.String,System.String,System.String)">
+	<summary>
+ sirve para reemplazar segmentos de una cadena
+ ej resultado= Reemplazar("hola mundo","mundo", "cambio") | resultado= "hola cambio"
+ </summary>
+	<param name="CadenaAnalizar">Cadena a analizar</param>
+	<param name="CadenaBuscar">valor que se desea borrar para reemplazar</param>
+	<param name="CadenaReemplazar">valor que reemplaza al anterior</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:Ramos.Framework.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Ramos.Framework.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Ramos.Framework.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

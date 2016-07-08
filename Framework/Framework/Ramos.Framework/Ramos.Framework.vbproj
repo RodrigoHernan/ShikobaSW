@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DB07F67B-085E-495B-8F25-0F3E67C51475}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Ramos.Framework</RootNamespace>
+    <AssemblyName>Ramos.Framework</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Ramos.Framework.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42032,42036</NoWarn>
+    <WarningsAsErrors>42020,42021,42022</WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Ramos.Framework.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42032,42036</NoWarn>
+    <WarningsAsErrors>42020,42021,42022</WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Aplicaciones\Aplicacion.vb" />
+    <Compile Include="Aplicaciones\MiAplicacion.vb" />
+    <Compile Include="ClasesSimples\Atributo.vb" />
+    <Compile Include="ErroresyExcepciones\excepciones.vb" />
+    <Compile Include="Funciones\Cadenas.vb" />
+    <Compile Include="Funciones\Directorios.vb" />
+    <Compile Include="Funciones\fecha.vb" />
+    <Compile Include="Funciones\matematicas.vb" />
+    <Compile Include="Funciones\Archivo.vb" />
+    <Compile Include="MisControles\MIFolderBrowserDialogvb.Designer.vb">
+      <DependentUpon>MIFolderBrowserDialogvb.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MisControles\MIFolderBrowserDialogvb.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MisControles\TextValidaCaracterNulo.Designer.vb">
+      <DependentUpon>TextValidaCaracterNulo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MisControles\TextValidaCaracterNulo.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MisControles\TextValidaEmail.Designer.vb">
+      <DependentUpon>TextValidaEmail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MisControles\TextValidaEmail.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Persistencia\Conexion.vb" />
+    <Compile Include="Persistencia\Configuraciondb.vb" />
+    <Compile Include="Persistencia\IProveedorBD.vb" />
+    <Compile Include="Persistencia\Parametro.vb" />
+    <Compile Include="Persistencia\ProveedorACCESS.vb" />
+    <Compile Include="Persistencia\ProveedorMySQL.vb" />
+    <Compile Include="Persistencia\ProveedorSQL.vb" />
+    <Compile Include="Funciones\validadores.vb" />
+    <Compile Include="Serializadores\Iserializador.vb" />
+    <Compile Include="Serializadores\pruebaSerializadorJSON.vb" />
+    <Compile Include="Serializadores\SerializadorJSON.vb" />
+    <Compile Include="Serializadores\SerializadorXml.vb" />
+    <Compile Include="Sistema\Archivos.vb" />
+    <Compile Include="Sistema\debug.vb" />
+    <Compile Include="ErroresyExcepciones\ServiciodeTrazas.vb" />
+    <Compile Include="Sistema\Resgistry.vb" />
+    <Compile Include="Sistema\threding.vb" />
+    <Compile Include="Sistema\Unidades.vb" />
+    <Compile Include="Sistema\Windows.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MisControles\MIFolderBrowserDialogvb.resx">
+      <DependentUpon>MIFolderBrowserDialogvb.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MisControles\TextValidaCaracterNulo.resx">
+      <DependentUpon>TextValidaCaracterNulo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MisControles\TextValidaEmail.resx">
+      <DependentUpon>TextValidaEmail.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{94E38DFF-614B-4CBD-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Entidades\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

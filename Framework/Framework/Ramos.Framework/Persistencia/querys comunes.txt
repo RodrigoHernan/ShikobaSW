@@ -1,0 +1,30 @@
+Crear un nuevo Campo 
+	"Insert into Cliente values (@Nombre,@Apellido)", ListadeParametros
+
+Para access
+"Insert into Prueba ([Nombre],[Apellido]) values (@Nombre,@Apellido)", ListadeParametros
+
+Modificar un campo 
+  c.EjecutarSinResultado("update Articulo set  NombreArticulo=@NombreArticulo where idArticulo=@idArticulo", listadeParametros)
+
+Traer todos los campos 
+	"select * from cliente", New List(Of Parametro))
+ Dim Facturas = d.EjecutarTupla(Of Factura)("select * from Factura inner join DetalleFactura on Factura.IdFactura = DetalleFactura.IdFactura", New List(Of Parametro))
+
+carga de parametro 
+ ListadeParametrosFactura.Add(New Parametro("@IdCliente", Factura.IdCliente))
+
+
+traer ultimo id Cargado 
+auxiliarIDfactura = C.EjecutarEscalar(Of Integer)("select @@identity", New List(Of Parametro))
+
+
+            Dim c As New Conexion(Conexion.EstrategiasDbEnum.SqlServer, obtenerConexion.datos.Servidor, obtenerConexion.datos.Catalogo)
+            Dim ListaParametros As New List(Of Parametro)
+            ListaParametros.Add(New Parametro("@Nombre", unArticulo.nombre))
+
+            c.ConexionIniciar()
+            c.TransaccionIniciar()
+            c.EjecutarSinResultado("Insert into Articulo values (@Nombre)", ListaParametros)
+            c.TransaccionAceptar()
+            c.conexionFinalizar()

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Configuracion>
+  <estrategiaElegida>ProveedorSQL</estrategiaElegida>
+  <Servidor>JESUS-PC\DBEXO</Servidor>
+  <Catalogo>ShikobaDB</Catalogo>
+  <NombreUsuario />
+  <Clave />
+</Configuracion>
+<!-- 
+Los proveedores pueden ser:
+"ProveedorSQL"
+"MySql"
+"ACCESS"-->
