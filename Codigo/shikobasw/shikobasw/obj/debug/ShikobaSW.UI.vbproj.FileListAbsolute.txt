@@ -79,3 +79,7 @@ D:\Archivos\UAI\Campo\Carpeta de Campo\Codigo\shikobasw\ShikobaSW\obj\Debug\Shik
 D:\Archivos\UAI\Campo\Carpeta de Campo\Codigo\shikobasw\ShikobaSW\obj\Debug\ShikobaSW.TurnosdelCliente.resources
 D:\Archivos\UAI\Campo\Carpeta de Campo\Codigo\shikobasw\ShikobaSW\obj\Debug\ShikobaSW.UI.vbproj.GenerateResource.Cache
 D:\Archivos\UAI\Campo\Carpeta de Campo\Codigo\shikobasw\ShikobaSW\obj\Debug\ShikobaSW.FormAusenciaProfesional.resources
+D:\Archivos\UAI\Campo\ShikobaSW\Codigo\shikobasw\ShikobaSW\bin\Debug\ShikobaSW.exe.config
+D:\Archivos\UAI\Campo\ShikobaSW\Codigo\shikobasw\ShikobaSW\obj\Debug\ShikobaSW.exe
+D:\Archivos\UAI\Campo\ShikobaSW\Codigo\shikobasw\ShikobaSW\obj\Debug\ShikobaSW.xml
+D:\Archivos\UAI\Campo\ShikobaSW\Codigo\shikobasw\ShikobaSW\obj\Debug\ShikobaSW.pdb
