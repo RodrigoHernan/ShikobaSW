@@ -89,10 +89,22 @@
     <Compile Include="FormAusenciaProfesional.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FormDardeNajaTurnoCliente.Designer.vb">
+      <DependentUpon>FormDardeNajaTurnoCliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormDardeNajaTurnoCliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FormLogin.Designer.vb">
       <DependentUpon>FormLogin.vb</DependentUpon>
     </Compile>
     <Compile Include="FormLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNumerodeTurnoDesconocido.Designer.vb">
+      <DependentUpon>FormNumerodeTurnoDesconocido.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormNumerodeTurnoDesconocido.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormProfesionales.Designer.vb">
@@ -139,8 +151,14 @@
     <EmbeddedResource Include="FormAusenciaProfesional.resx">
       <DependentUpon>FormAusenciaProfesional.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormDardeNajaTurnoCliente.resx">
+      <DependentUpon>FormDardeNajaTurnoCliente.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormLogin.resx">
       <DependentUpon>FormLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNumerodeTurnoDesconocido.resx">
+      <DependentUpon>FormNumerodeTurnoDesconocido.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormProfesionales.resx">
       <DependentUpon>FormProfesionales.vb</DependentUpon>

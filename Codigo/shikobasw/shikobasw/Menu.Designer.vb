@@ -41,10 +41,11 @@ Partial Public Class Menu
         Me.IngresoParaProfesionalesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AusenciaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ProfesionalToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ClienteToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.CToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ArgarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ClienteToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.DarDeBajaTurnoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -175,8 +176,21 @@ Partial Public Class Menu
         Me.ProfesionalToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.ProfesionalToolStripMenuItem.Text = "Profesional"
         '
+        'CToolStripMenuItem
+        '
+        Me.CToolStripMenuItem.Name = "CToolStripMenuItem"
+        Me.CToolStripMenuItem.Size = New System.Drawing.Size(248, 22)
+        Me.CToolStripMenuItem.Text = "Cargar Solicitud de Ausencia "
+        '
+        'ArgarToolStripMenuItem
+        '
+        Me.ArgarToolStripMenuItem.Name = "ArgarToolStripMenuItem"
+        Me.ArgarToolStripMenuItem.Size = New System.Drawing.Size(248, 22)
+        Me.ArgarToolStripMenuItem.Text = "asignar profesional de reemplazo"
+        '
         'ClienteToolStripMenuItem
         '
+        Me.ClienteToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.DarDeBajaTurnoToolStripMenuItem})
         Me.ClienteToolStripMenuItem.Name = "ClienteToolStripMenuItem"
         Me.ClienteToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.ClienteToolStripMenuItem.Text = "Cliente"
@@ -191,17 +205,11 @@ Partial Public Class Menu
         Me.PictureBox1.TabIndex = 1
         Me.PictureBox1.TabStop = False
         '
-        'CToolStripMenuItem
+        'DarDeBajaTurnoToolStripMenuItem
         '
-        Me.CToolStripMenuItem.Name = "CToolStripMenuItem"
-        Me.CToolStripMenuItem.Size = New System.Drawing.Size(248, 22)
-        Me.CToolStripMenuItem.Text = "Cargar Solicitud de Ausencia "
-        '
-        'ArgarToolStripMenuItem
-        '
-        Me.ArgarToolStripMenuItem.Name = "ArgarToolStripMenuItem"
-        Me.ArgarToolStripMenuItem.Size = New System.Drawing.Size(248, 22)
-        Me.ArgarToolStripMenuItem.Text = "asignar profesional de reemplazo"
+        Me.DarDeBajaTurnoToolStripMenuItem.Name = "DarDeBajaTurnoToolStripMenuItem"
+        Me.DarDeBajaTurnoToolStripMenuItem.Size = New System.Drawing.Size(168, 22)
+        Me.DarDeBajaTurnoToolStripMenuItem.Text = "Dar de baja Turno"
         '
         'Menu
         '
@@ -241,4 +249,5 @@ Partial Public Class Menu
     Friend WithEvents ClienteToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents CToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ArgarToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents DarDeBajaTurnoToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
 End Class
