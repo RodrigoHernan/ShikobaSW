@@ -1,3 +1,5 @@
+
+
 Public Class Menu
 
 
@@ -16,5 +18,10 @@ Public Class Menu
 
     Private Sub CToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CToolStripMenuItem.Click
         FormAusenciaProfesional.ShowDialog()
+    End Sub
+
+
+    Private Sub Menu_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
     End Sub
 End Class

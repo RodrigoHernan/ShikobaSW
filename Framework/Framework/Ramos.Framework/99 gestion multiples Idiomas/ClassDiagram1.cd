@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Ramos.Framework.GestionMultiplesIdiomas.Lenguaje">
+    <Position X="1.25" Y="1.25" Width="1.5" />
+    <AssociationLine Name="ElLenguaje" Type="Ramos.Framework.GestionMultiplesIdiomas.Lenguaje">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.077" Y="0.06" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAACAAAEAgAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>99 gestion multiples Idiomas\Lenguaje.vb</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ElLenguaje" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Valores" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Ramos.Framework.GestionMultiplesIdiomas.Valor">
+    <Position X="1.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAEAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>99 gestion multiples Idiomas\valor.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

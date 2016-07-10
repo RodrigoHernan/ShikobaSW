@@ -52,3 +52,21 @@ D:\Archivos\UAI\Campo\Carpeta de Campo\Codigo\shikobasw\ShikobaSW.BLL\obj\Debug\
 D:\Archivos\UAI\Campo\Carpeta de Campo\Codigo\shikobasw\ShikobaSW.BLL\obj\Debug\ShikobaSW.BLL.dll
 D:\Archivos\UAI\Campo\Carpeta de Campo\Codigo\shikobasw\ShikobaSW.BLL\obj\Debug\ShikobaSW.BLL.xml
 D:\Archivos\UAI\Campo\Carpeta de Campo\Codigo\shikobasw\ShikobaSW.BLL\obj\Debug\ShikobaSW.BLL.pdb
+D:\Archivos\UAI\Campo\ShikobaSW\Codigo\shikobasw\ShikobaSW.BLL\bin\Debug\ShikobaSW.BLL.dll
+D:\Archivos\UAI\Campo\ShikobaSW\Codigo\shikobasw\ShikobaSW.BLL\bin\Debug\ShikobaSW.BLL.pdb
+D:\Archivos\UAI\Campo\ShikobaSW\Codigo\shikobasw\ShikobaSW.BLL\bin\Debug\ShikobaSW.BLL.xml
+D:\Archivos\UAI\Campo\ShikobaSW\Codigo\shikobasw\ShikobaSW.BLL\bin\Debug\Ramos.Framework.dll
+D:\Archivos\UAI\Campo\ShikobaSW\Codigo\shikobasw\ShikobaSW.BLL\bin\Debug\ShikobaSW.Biz.dll
+D:\Archivos\UAI\Campo\ShikobaSW\Codigo\shikobasw\ShikobaSW.BLL\bin\Debug\ShikobaSW.DAL.dll
+D:\Archivos\UAI\Campo\ShikobaSW\Codigo\shikobasw\ShikobaSW.BLL\bin\Debug\Ramos.Framework.pdb
+D:\Archivos\UAI\Campo\ShikobaSW\Codigo\shikobasw\ShikobaSW.BLL\bin\Debug\Ramos.Framework.xml
+D:\Archivos\UAI\Campo\ShikobaSW\Codigo\shikobasw\ShikobaSW.BLL\bin\Debug\ShikobaSW.Biz.pdb
+D:\Archivos\UAI\Campo\ShikobaSW\Codigo\shikobasw\ShikobaSW.BLL\bin\Debug\ShikobaSW.Biz.xml
+D:\Archivos\UAI\Campo\ShikobaSW\Codigo\shikobasw\ShikobaSW.BLL\bin\Debug\ShikobaSW.DAL.pdb
+D:\Archivos\UAI\Campo\ShikobaSW\Codigo\shikobasw\ShikobaSW.BLL\bin\Debug\ShikobaSW.DAL.xml
+D:\Archivos\UAI\Campo\ShikobaSW\Codigo\shikobasw\ShikobaSW.BLL\obj\Debug\ShikobaSW.BLL.vbprojResolveAssemblyReference.cache
+D:\Archivos\UAI\Campo\ShikobaSW\Codigo\shikobasw\ShikobaSW.BLL\obj\Debug\ShikobaSW.Usuario.Resources.resources
+D:\Archivos\UAI\Campo\ShikobaSW\Codigo\shikobasw\ShikobaSW.BLL\obj\Debug\ShikobaSW.BLL.vbproj.GenerateResource.Cache
+D:\Archivos\UAI\Campo\ShikobaSW\Codigo\shikobasw\ShikobaSW.BLL\obj\Debug\ShikobaSW.BLL.dll
+D:\Archivos\UAI\Campo\ShikobaSW\Codigo\shikobasw\ShikobaSW.BLL\obj\Debug\ShikobaSW.BLL.xml
+D:\Archivos\UAI\Campo\ShikobaSW\Codigo\shikobasw\ShikobaSW.BLL\obj\Debug\ShikobaSW.BLL.pdb

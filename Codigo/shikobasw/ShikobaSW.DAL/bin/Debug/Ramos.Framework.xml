@@ -6,7 +6,76 @@ Ramos.Framework
 </name>
 </assembly>
 <members>
-<member name="M:Ramos.Framework.Sistema.Windows.ApagarSistema(System.Int32)">
+<member name="M:Ramos.Framework.Aplicaciones.Aplicacion.LanzarAplicacion(System.String)">
+	<summary>
+ Lanza una aplicacion
+ </summary>
+	<param name="Aplicacion">Ruta donde se encuentra la aplicacion</param>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Aplicaciones.Aplicacion.AplicacionEstaCoriendo(System.String)">
+	<summary>
+ Se fija si una aplicacion esta coriendo
+ </summary>
+	<param name="NombreProceso">Nombre del proceso</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:Ramos.Framework.Persistencia.ConfiguracionDb">
+	<summary>
+ Proporciona los datos de configuracion de una base de datos Para su
+ funcionamiento se debe crear una nueva clase y generar una shared property  del
+ tipo configuracion db y asignarle la ruta de configuracion
+ </summary>
+</member><member name="T:Ramos.Framework.ProveedorACCESS">
+	<summary>
+ Porveedor que permite realizar una conexion a un BD de Access la misma debe ser la version de 2003
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Sistema.Debug.Escribir(System.String)">
+	<summary>
+ Escribe en la consola un texto
+ </summary>
+	<param name="Texto">Texto a escribir</param>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Sistema.Unidades.ListarDiscos">
+	<summary>
+ Lista los discos que estan presentes en el sistema
+ </summary>
+	<returns>Discos en el sistema</returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Funciones.Archivo.cargarstring(System.String)">
+	<summary>
+ Toma un archivo .txt y lo carga en un string es necesario indicarle que es un tipo .txt
+ </summary>
+	<param name="direccion"></param>
+	<returns>Cadena con el .txt</returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Funciones.Archivo.GuardarEnString(System.String,System.String)">
+	<summary>
+ guarda en la direccion escrita todo el contenido en un archivo plano
+ </summary>
+	<param name="ruta"></param>
+	<param name="contenido"></param>
+	<remarks></remarks>
+</member><member name="P:Ramos.Framework.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Ramos.Framework.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Ramos.Framework.My.Resources.Resources">
+	<summary>
+ A strongly-typed resource class, for looking up localized strings, etc.
+ </summary>
+</member><member name="P:Ramos.Framework.pruebaSerializadorJSON.IsReusable">
+	<summary>
+  Debe configurar este controlador en el archivo web.config de su 
+  web y registrarlo en IIS para poder usarlo. Para obtener más información
+  vea el siguiente vínculo: http://go.microsoft.com/?linkid=8101007
+ </summary>
+</member><member name="M:Ramos.Framework.Sistema.Windows.ApagarSistema(System.Int32)">
 	<summary>
  Apaga el sistema en un tiempo determinado
  </summary>
@@ -29,74 +98,19 @@ Ramos.Framework
  Cancelar el apagado del sistema
  </summary>
 	<remarks></remarks>
-</member><member name="P:Ramos.Framework.My.Resources.Resources.ResourceManager">
+</member><member name="T:Ramos.Framework.Persistencia.ProveedorSql">
 	<summary>
-  Returns the cached ResourceManager instance used by this class.
-</summary>
-</member><member name="P:Ramos.Framework.My.Resources.Resources.Culture">
-	<summary>
-  Overrides the current thread's CurrentUICulture property for all
-  resource lookups using this strongly typed resource class.
-</summary>
-</member><member name="T:Ramos.Framework.My.Resources.Resources">
-	<summary>
- A strongly-typed resource class, for looking up localized strings, etc.
- </summary>
-</member><member name="M:Ramos.Framework.Sistema.Registro.iniciarconwindows(System.String,System.String,System.Boolean)">
-	<summary>
- Se llama a la función de esta manera:---- Framework.Sistema.Registry.iniciarconwindows(Application.ProductName.ToString, Application.ExecutablePath.ToString, True)--'True para activar--  'False para desactivar
- </summary>
-	<param name="productname"></param>
-	<param name="executablepath"></param>
-	<param name="onoff"></param>
-	<returns></returns>
-	<remarks></remarks>
-</member><member name="M:Ramos.Framework.Sistema.Unidades.ListarDiscos">
-	<summary>
- Lista los discos que estan presentes en el sistema
- </summary>
-	<returns>Discos en el sistema</returns>
-	<remarks></remarks>
-</member><member name="M:Ramos.Framework.Persistencia.Parametro.#ctor(System.String,System.Object)">
-	<summary>
- en su inicializacion de deben cargar los siguientes parametros
- </summary>
-	<param name="nombreParametro">Nombre del parametro que se desea enviar</param>
-	<param name="valor">valor del parametro a enviar</param>
-	<remarks></remarks>
-</member><member name="T:Ramos.Framework.Persistencia.Parametro">
-	<summary>
- Contiene los parametros que deben ser enviados a la conexion 
+ Dicho proveedor permite realizar una conexion a una base de datos SQLServer de windows
  </summary>
 	<remarks></remarks>
-</member><member name="M:Ramos.Framework.Sistema.Debug.Escribir(System.String)">
+</member><member name="M:Ramos.Framework.Sistema.ServiciodeTrazas.RegistrarEvento(System.String,System.String,System.String,Ramos.Framework.Sistema.ServiciodeTrazas.TipoEvento)">
 	<summary>
- Escribe en la consola un texto
+ funcion Shared para Registrar un evento en el visor de eventos
  </summary>
-	<param name="Texto">Texto a escribir</param>
-	<remarks></remarks>
-</member><member name="T:Ramos.Framework.Persistencia.ConfiguracionDb">
-	<summary>
- Proporciona los datos de configuracion de una base de datos Para su
- funcionamiento se debe crear una nueva clase y generar una shared property  del
- tipo configuracion db y asignarle la ruta de configuracion
- </summary>
-</member><member name="T:Ramos.Framework.ProveedorACCESS">
-	<summary>
- Porveedor que permite realizar una conexion a un BD de Access la misma debe ser la version de 2003
- </summary>
-	<remarks></remarks>
-</member><member name="M:Ramos.Framework.Aplicaciones.Aplicacion.LanzarAplicacion(System.String)">
-	<summary>
- Lanza una aplicacion
- </summary>
-	<param name="Aplicacion">Ruta donde se encuentra la aplicacion</param>
-	<remarks></remarks>
-</member><member name="M:Ramos.Framework.Aplicaciones.Aplicacion.AplicacionEstaCoriendo(System.String)">
-	<summary>
- Se fija si una aplicacion esta coriendo
- </summary>
-	<param name="NombreProceso">Nombre del proceso</param>
+	<param name="Origen">Nombre del documento que guarda el error</param>
+	<param name="Tipo">Carpeta personalizada dentro del event view</param>
+	<param name="Texto">Descripcion del error</param>
+	<param name="TipoDeError">Error, warning o Information</param>
 	<returns></returns>
 	<remarks></remarks>
 </member><member name="T:Ramos.Framework.Persistencia.Conexion">
@@ -165,18 +179,6 @@ Ramos.Framework
 	<param name="Valor">True si es valido</param>
 	<returns></returns>
 	<remarks></remarks>
-</member><member name="M:Ramos.Framework.Aplicaciones.MiAplicacion.NombreAplicacion">
-	<summary>
- Devuelve el nombre de la aplicacion
- </summary>
-	<returns>Nombre de la aplicacion</returns>
-	<remarks></remarks>
-</member><member name="M:Ramos.Framework.Aplicaciones.MiAplicacion.DirectorioAplicacion">
-	<summary>
- Devuelve la path de la aplicacion
- </summary>
-	<returns>La path de la aplicacion</returns>
-	<remarks></remarks>
 </member><member name="M:Ramos.Framework.Funciones.matematicas.redondear(System.Decimal,System.Int32)">
 	<summary>
  ingreso un numero y lo redondea la cantidad de decimales deseada.
@@ -210,30 +212,6 @@ Ramos.Framework
 	<param name="PorcentajeDescontar"></param>
 	<returns></returns>
 	<remarks></remarks>
-</member><member name="M:Ramos.Framework.Funciones.Archivo.cargarstring(System.String)">
-	<summary>
- Toma un archivo .txt y lo carga en un string es necesario indicarle que es un tipo .txt
- </summary>
-	<param name="direccion"></param>
-	<returns>Cadena con el .txt</returns>
-	<remarks></remarks>
-</member><member name="M:Ramos.Framework.Funciones.Archivo.GuardarEnString(System.String,System.String)">
-	<summary>
- guarda en la direccion escrita todo el contenido en un archivo plano
- </summary>
-	<param name="ruta"></param>
-	<param name="contenido"></param>
-	<remarks></remarks>
-</member><member name="M:Ramos.Framework.Sistema.ServiciodeTrazas.RegistrarEvento(System.String,System.String,System.String,Ramos.Framework.Sistema.ServiciodeTrazas.TipoEvento)">
-	<summary>
- funcion Shared para Registrar un evento en el visor de eventos
- </summary>
-	<param name="Origen">Nombre del documento que guarda el error</param>
-	<param name="Tipo">Carpeta personalizada dentro del event view</param>
-	<param name="Texto">Descripcion del error</param>
-	<param name="TipoDeError">Error, warning o Information</param>
-	<returns></returns>
-	<remarks></remarks>
 </member><member name="M:Ramos.Framework.Funciones.Directorios.TraerSubcarpetas(System.String)">
 	<summary>
  Trae una matriz de string con todas las subcarpetas
@@ -248,37 +226,6 @@ Ramos.Framework
 	<param name="Direccion">Direccion a Analizar</param>
 	<param name="CadenaDeBusqueda">cadena de busqueda que debe coincidir con los nombres de los archivos de Direccion</param>
 	<returns></returns>
-	<remarks></remarks>
-</member><member name="M:Ramos.Framework.Funciones.fecha.Hoy">
-	<summary>
- devuelve el dia de hoy
- </summary>
-	<returns>dd/mm/aa</returns>
-	<remarks></remarks>
-</member><member name="M:Ramos.Framework.Funciones.fecha.Ahora">
-	<summary>
- devuelve el dia de hoy y la hora
- </summary>
-	<returns>dd/mm/aa hh:mm:ss</returns>
-	<remarks></remarks>
-</member><member name="M:Ramos.Framework.Funciones.fecha.UltimoDiaDelMesEnFecha(System.Int32,System.Int32)">
-	<summary>
- Devuelve el ultimo dia del mes en la fecha especificada
- </summary>
-	<param name="Mes">Mes</param>
-	<param name="Anio">Año</param>
-	<returns></returns>
-	<remarks></remarks>
-</member><member name="P:Ramos.Framework.pruebaSerializadorJSON.IsReusable">
-	<summary>
-  Debe configurar este controlador en el archivo web.config de su 
-  web y registrarlo en IIS para poder usarlo. Para obtener más información
-  vea el siguiente vínculo: http://go.microsoft.com/?linkid=8101007
- </summary>
-</member><member name="T:Ramos.Framework.Persistencia.ProveedorSql">
-	<summary>
- Dicho proveedor permite realizar una conexion a una base de datos SQLServer de windows
- </summary>
 	<remarks></remarks>
 </member><member name="M:Ramos.Framework.Funciones.Cadenas.largo(System.String)">
 	<summary>
@@ -419,6 +366,59 @@ Ramos.Framework
 	</summary>
 	<param name="pConsulta"></param>
 	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Persistencia.Parametro.#ctor(System.String,System.Object)">
+	<summary>
+ en su inicializacion de deben cargar los siguientes parametros
+ </summary>
+	<param name="nombreParametro">Nombre del parametro que se desea enviar</param>
+	<param name="valor">valor del parametro a enviar</param>
+	<remarks></remarks>
+</member><member name="T:Ramos.Framework.Persistencia.Parametro">
+	<summary>
+ Contiene los parametros que deben ser enviados a la conexion 
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Funciones.fecha.Hoy">
+	<summary>
+ devuelve el dia de hoy
+ </summary>
+	<returns>dd/mm/aa</returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Funciones.fecha.Ahora">
+	<summary>
+ devuelve el dia de hoy y la hora
+ </summary>
+	<returns>dd/mm/aa hh:mm:ss</returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Funciones.fecha.UltimoDiaDelMesEnFecha(System.Int32,System.Int32)">
+	<summary>
+ Devuelve el ultimo dia del mes en la fecha especificada
+ </summary>
+	<param name="Mes">Mes</param>
+	<param name="Anio">Año</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Sistema.Registro.iniciarconwindows(System.String,System.String,System.Boolean)">
+	<summary>
+ Se llama a la función de esta manera:---- Framework.Sistema.Registry.iniciarconwindows(Application.ProductName.ToString, Application.ExecutablePath.ToString, True)--'True para activar--  'False para desactivar
+ </summary>
+	<param name="productname"></param>
+	<param name="executablepath"></param>
+	<param name="onoff"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Aplicaciones.MiAplicacion.NombreAplicacion">
+	<summary>
+ Devuelve el nombre de la aplicacion
+ </summary>
+	<returns>Nombre de la aplicacion</returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Aplicaciones.MiAplicacion.DirectorioAplicacion">
+	<summary>
+ Devuelve la path de la aplicacion
+ </summary>
+	<returns>La path de la aplicacion</returns>
 	<remarks></remarks>
 </member><member name="T:Ramos.Framework.Persistencia.ProveedorMySQL">
 	<summary>

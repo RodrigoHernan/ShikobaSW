@@ -6,7 +6,17 @@ ShikobaSW.Biz
 </name>
 </assembly>
 <members>
-<member name="P:ShikobaSW.Biz.My.Resources.Resources.ResourceManager">
+<member name="T:ShikobaSW.Biz.BIZ.Entities.DiasQueAtiende">
+	<summary>
+ Esta clase contiene la informcion relacionada acerca de si posee Obra Social,
+ Prepaga o es Particular. En caso de ser particular el idOSoPrePa es = a 1
+ </summary>
+</member><member name="T:ShikobaSW.Biz.BIZ.Entities.OsoPrePa">
+	<summary>
+ Esta clase contiene la informcion relacionada acerca de si posee Obra Social,
+ Prepaga o es Particular. En caso de ser particular el idOSoPrePa es = a 1
+ </summary>
+</member><member name="P:ShikobaSW.Biz.My.Resources.Resources.ResourceManager">
 	<summary>
   Returns the cached ResourceManager instance used by this class.
 </summary>
@@ -18,16 +28,6 @@ ShikobaSW.Biz
 </member><member name="T:ShikobaSW.Biz.My.Resources.Resources">
 	<summary>
  A strongly-typed resource class, for looking up localized strings, etc.
- </summary>
-</member><member name="T:ShikobaSW.Biz.BIZ.Entities.DiasQueAtiende">
-	<summary>
- Esta clase contiene la informcion relacionada acerca de si posee Obra Social,
- Prepaga o es Particular. En caso de ser particular el idOSoPrePa es = a 1
- </summary>
-</member><member name="T:ShikobaSW.Biz.BIZ.Entities.OsoPrePa">
-	<summary>
- Esta clase contiene la informcion relacionada acerca de si posee Obra Social,
- Prepaga o es Particular. En caso de ser particular el idOSoPrePa es = a 1
  </summary>
 </member><member name="P:ShikobaSW.Biz.BIZ.Entities.Turno.EsSobreturno">
 	<summary>
@@ -41,6 +41,13 @@ ShikobaSW.Biz
  esta property indica el estado en que se encuentra el servicio 
  </summary>
 	<value>1: Reservado 2: En Espera 3:Concretado 4: No Concretado</value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:ShikobaSW.Biz.BIZ.Entities.AusenciaProfesional.CertificadoCargado">
+	<summary>
+ esta property cuando esta en false indica que no fue cargado el certificado de auscencia 
+ </summary>
+	<value></value>
 	<returns></returns>
 	<remarks></remarks>
 </member>

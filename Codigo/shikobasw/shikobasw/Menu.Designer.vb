@@ -44,8 +44,8 @@ Partial Public Class Menu
         Me.CToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ArgarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ClienteToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.DarDeBajaTurnoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -78,14 +78,14 @@ Partial Public Class Menu
         'AgregarTurnoToolStripMenuItem
         '
         Me.AgregarTurnoToolStripMenuItem.Name = "AgregarTurnoToolStripMenuItem"
-        Me.AgregarTurnoToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.AgregarTurnoToolStripMenuItem.Size = New System.Drawing.Size(151, 22)
         Me.AgregarTurnoToolStripMenuItem.Text = "Agregar Turno"
         '
         'AgregarClienteToolStripMenuItem
         '
         Me.AgregarClienteToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AgregarClienteToolStripMenuItem1, Me.ModificarClienteToolStripMenuItem, Me.DarDeBajaClienteToolStripMenuItem, Me.TurnosClienteToolStripMenuItem})
         Me.AgregarClienteToolStripMenuItem.Name = "AgregarClienteToolStripMenuItem"
-        Me.AgregarClienteToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.AgregarClienteToolStripMenuItem.Size = New System.Drawing.Size(151, 22)
         Me.AgregarClienteToolStripMenuItem.Text = " Cliente"
         '
         'AgregarClienteToolStripMenuItem1
@@ -116,7 +116,7 @@ Partial Public Class Menu
         '
         Me.AgregarProfesionalToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AgregarProfesionalToolStripMenuItem1, Me.ModificarProfesionalToolStripMenuItem, Me.DarDeBajaProfesionalToolStripMenuItem, Me.ProfesionToolStripMenuItem, Me.IngresoParaProfesionalesToolStripMenuItem})
         Me.AgregarProfesionalToolStripMenuItem.Name = "AgregarProfesionalToolStripMenuItem"
-        Me.AgregarProfesionalToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.AgregarProfesionalToolStripMenuItem.Size = New System.Drawing.Size(151, 22)
         Me.AgregarProfesionalToolStripMenuItem.Text = "Profesional"
         '
         'AgregarProfesionalToolStripMenuItem1
@@ -166,14 +166,14 @@ Partial Public Class Menu
         '
         Me.AusenciaToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ProfesionalToolStripMenuItem, Me.ClienteToolStripMenuItem})
         Me.AusenciaToolStripMenuItem.Name = "AusenciaToolStripMenuItem"
-        Me.AusenciaToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.AusenciaToolStripMenuItem.Size = New System.Drawing.Size(151, 22)
         Me.AusenciaToolStripMenuItem.Text = "Ausencia"
         '
         'ProfesionalToolStripMenuItem
         '
         Me.ProfesionalToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CToolStripMenuItem, Me.ArgarToolStripMenuItem})
         Me.ProfesionalToolStripMenuItem.Name = "ProfesionalToolStripMenuItem"
-        Me.ProfesionalToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.ProfesionalToolStripMenuItem.Size = New System.Drawing.Size(133, 22)
         Me.ProfesionalToolStripMenuItem.Text = "Profesional"
         '
         'CToolStripMenuItem
@@ -192,8 +192,14 @@ Partial Public Class Menu
         '
         Me.ClienteToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.DarDeBajaTurnoToolStripMenuItem})
         Me.ClienteToolStripMenuItem.Name = "ClienteToolStripMenuItem"
-        Me.ClienteToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.ClienteToolStripMenuItem.Size = New System.Drawing.Size(133, 22)
         Me.ClienteToolStripMenuItem.Text = "Cliente"
+        '
+        'DarDeBajaTurnoToolStripMenuItem
+        '
+        Me.DarDeBajaTurnoToolStripMenuItem.Name = "DarDeBajaTurnoToolStripMenuItem"
+        Me.DarDeBajaTurnoToolStripMenuItem.Size = New System.Drawing.Size(168, 22)
+        Me.DarDeBajaTurnoToolStripMenuItem.Text = "Dar de baja Turno"
         '
         'PictureBox1
         '
@@ -204,12 +210,6 @@ Partial Public Class Menu
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 1
         Me.PictureBox1.TabStop = False
-        '
-        'DarDeBajaTurnoToolStripMenuItem
-        '
-        Me.DarDeBajaTurnoToolStripMenuItem.Name = "DarDeBajaTurnoToolStripMenuItem"
-        Me.DarDeBajaTurnoToolStripMenuItem.Size = New System.Drawing.Size(168, 22)
-        Me.DarDeBajaTurnoToolStripMenuItem.Text = "Dar de baja Turno"
         '
         'Menu
         '

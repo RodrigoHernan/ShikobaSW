@@ -74,3 +74,16 @@ D:\Archivos\UAI\Campo\Carpeta de Campo\Framework\Framework\Ramos.Framework\obj\D
 D:\Archivos\UAI\Campo\Carpeta de Campo\Framework\Framework\Ramos.Framework\obj\Debug\Ramos.Framework.dll
 D:\Archivos\UAI\Campo\Carpeta de Campo\Framework\Framework\Ramos.Framework\obj\Debug\Ramos.Framework.xml
 D:\Archivos\UAI\Campo\Carpeta de Campo\Framework\Framework\Ramos.Framework\obj\Debug\Ramos.Framework.pdb
+D:\Archivos\UAI\Campo\ShikobaSW\Framework\Framework\Ramos.Framework\bin\Debug\Ramos.Framework.dll.config
+D:\Archivos\UAI\Campo\ShikobaSW\Framework\Framework\Ramos.Framework\bin\Debug\Ramos.Framework.dll
+D:\Archivos\UAI\Campo\ShikobaSW\Framework\Framework\Ramos.Framework\bin\Debug\Ramos.Framework.pdb
+D:\Archivos\UAI\Campo\ShikobaSW\Framework\Framework\Ramos.Framework\bin\Debug\Ramos.Framework.xml
+D:\Archivos\UAI\Campo\ShikobaSW\Framework\Framework\Ramos.Framework\obj\Debug\Ramos.Framework.vbprojResolveAssemblyReference.cache
+D:\Archivos\UAI\Campo\ShikobaSW\Framework\Framework\Ramos.Framework\obj\Debug\Ramos.Framework.MIFolderBrowserDialog.resources
+D:\Archivos\UAI\Campo\ShikobaSW\Framework\Framework\Ramos.Framework\obj\Debug\Ramos.Framework.TextValidaCaracterNulo.resources
+D:\Archivos\UAI\Campo\ShikobaSW\Framework\Framework\Ramos.Framework\obj\Debug\Ramos.Framework.TextValidaEmail.resources
+D:\Archivos\UAI\Campo\ShikobaSW\Framework\Framework\Ramos.Framework\obj\Debug\Ramos.Framework.Resources.resources
+D:\Archivos\UAI\Campo\ShikobaSW\Framework\Framework\Ramos.Framework\obj\Debug\Ramos.Framework.vbproj.GenerateResource.Cache
+D:\Archivos\UAI\Campo\ShikobaSW\Framework\Framework\Ramos.Framework\obj\Debug\Ramos.Framework.dll
+D:\Archivos\UAI\Campo\ShikobaSW\Framework\Framework\Ramos.Framework\obj\Debug\Ramos.Framework.xml
+D:\Archivos\UAI\Campo\ShikobaSW\Framework\Framework\Ramos.Framework\obj\Debug\Ramos.Framework.pdb

@@ -43,3 +43,18 @@ D:\Archivos\UAI\Campo\Carpeta de Campo\Codigo\shikobasw\ShikobaSW.DAL\obj\Debug\
 D:\Archivos\UAI\Campo\Carpeta de Campo\Codigo\shikobasw\ShikobaSW.DAL\obj\Debug\ShikobaSW.DAL.dll
 D:\Archivos\UAI\Campo\Carpeta de Campo\Codigo\shikobasw\ShikobaSW.DAL\obj\Debug\ShikobaSW.DAL.xml
 D:\Archivos\UAI\Campo\Carpeta de Campo\Codigo\shikobasw\ShikobaSW.DAL\obj\Debug\ShikobaSW.DAL.pdb
+D:\Archivos\UAI\Campo\ShikobaSW\Codigo\shikobasw\ShikobaSW.DAL\bin\Debug\ShikobaSW.DAL.dll
+D:\Archivos\UAI\Campo\ShikobaSW\Codigo\shikobasw\ShikobaSW.DAL\bin\Debug\ShikobaSW.DAL.pdb
+D:\Archivos\UAI\Campo\ShikobaSW\Codigo\shikobasw\ShikobaSW.DAL\bin\Debug\ShikobaSW.DAL.xml
+D:\Archivos\UAI\Campo\ShikobaSW\Codigo\shikobasw\ShikobaSW.DAL\bin\Debug\Ramos.Framework.dll
+D:\Archivos\UAI\Campo\ShikobaSW\Codigo\shikobasw\ShikobaSW.DAL\bin\Debug\ShikobaSW.Biz.dll
+D:\Archivos\UAI\Campo\ShikobaSW\Codigo\shikobasw\ShikobaSW.DAL\bin\Debug\Ramos.Framework.pdb
+D:\Archivos\UAI\Campo\ShikobaSW\Codigo\shikobasw\ShikobaSW.DAL\bin\Debug\Ramos.Framework.xml
+D:\Archivos\UAI\Campo\ShikobaSW\Codigo\shikobasw\ShikobaSW.DAL\bin\Debug\ShikobaSW.Biz.pdb
+D:\Archivos\UAI\Campo\ShikobaSW\Codigo\shikobasw\ShikobaSW.DAL\bin\Debug\ShikobaSW.Biz.xml
+D:\Archivos\UAI\Campo\ShikobaSW\Codigo\shikobasw\ShikobaSW.DAL\obj\Debug\ShikobaSW.DAL.vbprojResolveAssemblyReference.cache
+D:\Archivos\UAI\Campo\ShikobaSW\Codigo\shikobasw\ShikobaSW.DAL\obj\Debug\ShikobaSW.DAL.Resources.resources
+D:\Archivos\UAI\Campo\ShikobaSW\Codigo\shikobasw\ShikobaSW.DAL\obj\Debug\ShikobaSW.DAL.vbproj.GenerateResource.Cache
+D:\Archivos\UAI\Campo\ShikobaSW\Codigo\shikobasw\ShikobaSW.DAL\obj\Debug\ShikobaSW.DAL.dll
+D:\Archivos\UAI\Campo\ShikobaSW\Codigo\shikobasw\ShikobaSW.DAL\obj\Debug\ShikobaSW.DAL.xml
+D:\Archivos\UAI\Campo\ShikobaSW\Codigo\shikobasw\ShikobaSW.DAL\obj\Debug\ShikobaSW.DAL.pdb

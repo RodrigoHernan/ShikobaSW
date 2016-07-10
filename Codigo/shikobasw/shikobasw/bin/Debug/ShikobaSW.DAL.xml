@@ -6,28 +6,26 @@ ShikobaSW.DAL
 </name>
 </assembly>
 <members>
-<member name="M:ShikobaSW.DAL.DAL.Turno.TraerTurnosDisponiblesFecha(System.DateTime,System.Int32,ShikobaSW.Biz.BIZ.Entities.Servicio)">
+<member name="M:ShikobaSW.DAL.DAL.Cliente.Comprobar(System.Int32,System.String)">
 	<summary>
- 'se genera la lista de turnos totales segun el dia de la semana, el servicio y el OSoPrePa
+ comprueba si el si la informacion a buscar existe en la celda elegida de la base de datos
  </summary>
-	<param name="Fecha">fecha a la cual se desea traer los turnos disponibles</param>
-	<param name="OSoPrePa">numero de ObraSocial/Prepaga/Particular del cual se desea buscar los turnos disponibles</param>
-	<param name="servicio">Servicio que se desea buscar los turnos disponibles</param>
-	<returns>Lista de Turnos disponibles list (of Turnos) </returns>
+	<param name="InformacionABuscar">informacion que se desea comprobar si existe en la base de datos</param>
+	<param name="NombreDeCelda">nombre del atributo que se desea buscar en la base de datos</param>
+	<returns>TRUE si la informacion buscada existe en BD</returns>
 	<remarks></remarks>
-</member><member name="M:ShikobaSW.DAL.DAL.Turno.Guardar(ShikobaSW.Biz.BIZ.Entities.Turno)">
+</member><member name="M:ShikobaSW.DAL.DAL.Cliente.GuardarCliente(ShikobaSW.Biz.BIZ.Entities.Cliente)">
 	<summary>
- Guarda en la base de datos el turno seleccionado 
+ Guarda en la base de datos el Cliente que es enviado en la funcion como un nuevo registro 
  </summary>
-	<param name="unTurno">Turno que se desea guardar</param>
+	<param name="unCliente">Cliete que se desea guarda</param>
 	<remarks></remarks>
-</member><member name="M:ShikobaSW.DAL.DAL.Turno.TraerTurnosOcupados(System.DateTime,Ramos.Framework.Persistencia.Conexion)">
+</member><member name="M:ShikobaSW.DAL.DAL.Cliente.BuscarCliente(System.Int32)">
 	<summary>
- Trae todos los turnos Ocupados. Se debe establecer una conexion antes 
+ Se ingresa un DNI y el mismo retorna una instancia de la clase cliente que pertenece el DNI
  </summary>
-	<param name="Fecha">Fecha que se desea traer los turnos ocupados</param>
-	<param name="c">conexion establecida de la bd</param>
-	<returns>lista de turnos ocupados</returns>
+	<param name="DNI"></param>
+	<returns>Cliente si el cliente no existe retorna nothing</returns>
 	<remarks></remarks>
 </member><member name="P:ShikobaSW.DAL.My.Resources.Resources.ResourceManager">
 	<summary>
@@ -55,26 +53,28 @@ ShikobaSW.DAL
 	<param name="Servicio">clase servicio que se desea buscar el tiempo estimaddo</param>
 	<returns>tiempo estimado en minutos</returns>
 	<remarks></remarks>
-</member><member name="M:ShikobaSW.DAL.DAL.Cliente.Comprobar(System.Int32,System.String)">
+</member><member name="M:ShikobaSW.DAL.DAL.Turno.TraerTurnosDisponiblesFecha(System.DateTime,System.Int32,ShikobaSW.Biz.BIZ.Entities.Servicio)">
 	<summary>
- comprueba si el si la informacion a buscar existe en la celda elegida de la base de datos
+ 'se genera la lista de turnos totales segun el dia de la semana, el servicio y el OSoPrePa
  </summary>
-	<param name="InformacionABuscar">informacion que se desea comprobar si existe en la base de datos</param>
-	<param name="NombreDeCelda">nombre del atributo que se desea buscar en la base de datos</param>
-	<returns>TRUE si la informacion buscada existe en BD</returns>
+	<param name="Fecha">fecha a la cual se desea traer los turnos disponibles</param>
+	<param name="OSoPrePa">numero de ObraSocial/Prepaga/Particular del cual se desea buscar los turnos disponibles</param>
+	<param name="servicio">Servicio que se desea buscar los turnos disponibles</param>
+	<returns>Lista de Turnos disponibles list (of Turnos) </returns>
 	<remarks></remarks>
-</member><member name="M:ShikobaSW.DAL.DAL.Cliente.GuardarCliente(ShikobaSW.Biz.BIZ.Entities.Cliente)">
+</member><member name="M:ShikobaSW.DAL.DAL.Turno.Guardar(ShikobaSW.Biz.BIZ.Entities.Turno)">
 	<summary>
- Guarda en la base de datos el Cliente que es enviado en la funcion como un nuevo registro 
+ Guarda en la base de datos el turno seleccionado 
  </summary>
-	<param name="unCliente">Cliete que se desea guarda</param>
+	<param name="unTurno">Turno que se desea guardar</param>
 	<remarks></remarks>
-</member><member name="M:ShikobaSW.DAL.DAL.Cliente.BuscarCliente(System.Int32)">
+</member><member name="M:ShikobaSW.DAL.DAL.Turno.TraerTurnosOcupados(System.DateTime,Ramos.Framework.Persistencia.Conexion)">
 	<summary>
- Se ingresa un DNI y el mismo retorna una instancia de la clase cliente que pertenece el DNI
+ Trae todos los turnos Ocupados. Se debe establecer una conexion antes 
  </summary>
-	<param name="DNI"></param>
-	<returns>Cliente si el cliente no existe retorna nothing</returns>
+	<param name="Fecha">Fecha que se desea traer los turnos ocupados</param>
+	<param name="c">conexion establecida de la bd</param>
+	<returns>lista de turnos ocupados</returns>
 	<remarks></remarks>
 </member>
 </members>

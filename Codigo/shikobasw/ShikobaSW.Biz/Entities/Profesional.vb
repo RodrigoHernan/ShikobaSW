@@ -3,6 +3,7 @@
 Namespace BIZ.Entities
 
     Public Class Profesional
+
         Public Property IdProfesional As Integer
         Public Property IdServicioPrestado As Integer
 

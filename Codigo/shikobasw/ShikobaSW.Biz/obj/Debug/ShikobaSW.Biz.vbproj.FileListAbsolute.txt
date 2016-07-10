@@ -22,3 +22,15 @@ D:\Archivos\UAI\Campo\Carpeta de Campo\Codigo\shikobasw\ShikobaSW.Biz\obj\Debug\
 D:\Archivos\UAI\Campo\Carpeta de Campo\Codigo\shikobasw\ShikobaSW.Biz\obj\Debug\ShikobaSW.Biz.dll
 D:\Archivos\UAI\Campo\Carpeta de Campo\Codigo\shikobasw\ShikobaSW.Biz\obj\Debug\ShikobaSW.Biz.xml
 D:\Archivos\UAI\Campo\Carpeta de Campo\Codigo\shikobasw\ShikobaSW.Biz\obj\Debug\ShikobaSW.Biz.pdb
+D:\Archivos\UAI\Campo\ShikobaSW\Codigo\shikobasw\ShikobaSW.Biz\bin\Debug\ShikobaSW.Biz.dll
+D:\Archivos\UAI\Campo\ShikobaSW\Codigo\shikobasw\ShikobaSW.Biz\bin\Debug\ShikobaSW.Biz.pdb
+D:\Archivos\UAI\Campo\ShikobaSW\Codigo\shikobasw\ShikobaSW.Biz\bin\Debug\ShikobaSW.Biz.xml
+D:\Archivos\UAI\Campo\ShikobaSW\Codigo\shikobasw\ShikobaSW.Biz\obj\Debug\ShikobaSW.Biz.Resources.resources
+D:\Archivos\UAI\Campo\ShikobaSW\Codigo\shikobasw\ShikobaSW.Biz\obj\Debug\ShikobaSW.BIZ.vbproj.GenerateResource.Cache
+D:\Archivos\UAI\Campo\ShikobaSW\Codigo\shikobasw\ShikobaSW.Biz\obj\Debug\ShikobaSW.Biz.dll
+D:\Archivos\UAI\Campo\ShikobaSW\Codigo\shikobasw\ShikobaSW.Biz\obj\Debug\ShikobaSW.Biz.xml
+D:\Archivos\UAI\Campo\ShikobaSW\Codigo\shikobasw\ShikobaSW.Biz\obj\Debug\ShikobaSW.Biz.pdb
+D:\Archivos\UAI\Campo\ShikobaSW\Codigo\shikobasw\ShikobaSW.Biz\bin\Debug\Ramos.Framework.dll
+D:\Archivos\UAI\Campo\ShikobaSW\Codigo\shikobasw\ShikobaSW.Biz\bin\Debug\Ramos.Framework.pdb
+D:\Archivos\UAI\Campo\ShikobaSW\Codigo\shikobasw\ShikobaSW.Biz\bin\Debug\Ramos.Framework.xml
+D:\Archivos\UAI\Campo\ShikobaSW\Codigo\shikobasw\ShikobaSW.Biz\obj\Debug\ShikobaSW.BIZ.vbprojResolveAssemblyReference.cache

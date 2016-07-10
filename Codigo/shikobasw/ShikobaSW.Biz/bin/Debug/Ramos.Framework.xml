@@ -1,0 +1,430 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Ramos.Framework
+</name>
+</assembly>
+<members>
+<member name="M:Ramos.Framework.Aplicaciones.Aplicacion.LanzarAplicacion(System.String)">
+	<summary>
+ Lanza una aplicacion
+ </summary>
+	<param name="Aplicacion">Ruta donde se encuentra la aplicacion</param>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Aplicaciones.Aplicacion.AplicacionEstaCoriendo(System.String)">
+	<summary>
+ Se fija si una aplicacion esta coriendo
+ </summary>
+	<param name="NombreProceso">Nombre del proceso</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:Ramos.Framework.Persistencia.ConfiguracionDb">
+	<summary>
+ Proporciona los datos de configuracion de una base de datos Para su
+ funcionamiento se debe crear una nueva clase y generar una shared property  del
+ tipo configuracion db y asignarle la ruta de configuracion
+ </summary>
+</member><member name="T:Ramos.Framework.ProveedorACCESS">
+	<summary>
+ Porveedor que permite realizar una conexion a un BD de Access la misma debe ser la version de 2003
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Sistema.Debug.Escribir(System.String)">
+	<summary>
+ Escribe en la consola un texto
+ </summary>
+	<param name="Texto">Texto a escribir</param>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Sistema.Unidades.ListarDiscos">
+	<summary>
+ Lista los discos que estan presentes en el sistema
+ </summary>
+	<returns>Discos en el sistema</returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Funciones.Archivo.cargarstring(System.String)">
+	<summary>
+ Toma un archivo .txt y lo carga en un string es necesario indicarle que es un tipo .txt
+ </summary>
+	<param name="direccion"></param>
+	<returns>Cadena con el .txt</returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Funciones.Archivo.GuardarEnString(System.String,System.String)">
+	<summary>
+ guarda en la direccion escrita todo el contenido en un archivo plano
+ </summary>
+	<param name="ruta"></param>
+	<param name="contenido"></param>
+	<remarks></remarks>
+</member><member name="P:Ramos.Framework.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Ramos.Framework.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Ramos.Framework.My.Resources.Resources">
+	<summary>
+ A strongly-typed resource class, for looking up localized strings, etc.
+ </summary>
+</member><member name="P:Ramos.Framework.pruebaSerializadorJSON.IsReusable">
+	<summary>
+  Debe configurar este controlador en el archivo web.config de su 
+  web y registrarlo en IIS para poder usarlo. Para obtener más información
+  vea el siguiente vínculo: http://go.microsoft.com/?linkid=8101007
+ </summary>
+</member><member name="M:Ramos.Framework.Sistema.Windows.ApagarSistema(System.Int32)">
+	<summary>
+ Apaga el sistema en un tiempo determinado
+ </summary>
+	<param name="Tiempo">Tiempo en segundos</param>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Sistema.Windows.ReiniciarSistema(System.Int32)">
+	<summary>
+ Reinicia el sistema en un tiempo determinado
+ </summary>
+	<param name="Tiempo">Tiempo en segundos</param>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Sistema.Windows.CerrarSesion(System.Int32)">
+	<summary>
+ Cierra la sesion en un tiempo determinado
+ </summary>
+	<param name="Tiempo">Tiempo en segundos</param>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Sistema.Windows.CancelarApagado">
+	<summary>
+ Cancelar el apagado del sistema
+ </summary>
+	<remarks></remarks>
+</member><member name="T:Ramos.Framework.Persistencia.ProveedorSql">
+	<summary>
+ Dicho proveedor permite realizar una conexion a una base de datos SQLServer de windows
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Sistema.ServiciodeTrazas.RegistrarEvento(System.String,System.String,System.String,Ramos.Framework.Sistema.ServiciodeTrazas.TipoEvento)">
+	<summary>
+ funcion Shared para Registrar un evento en el visor de eventos
+ </summary>
+	<param name="Origen">Nombre del documento que guarda el error</param>
+	<param name="Tipo">Carpeta personalizada dentro del event view</param>
+	<param name="Texto">Descripcion del error</param>
+	<param name="TipoDeError">Error, warning o Information</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:Ramos.Framework.Persistencia.Conexion">
+	<summary>
+ La clase conexion proporciona valores para la conexion a una base de datos los parametros deben ingresarse al archivo conexion.txt dentro de la carpeta debug
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Funciones.validadores.FechaMayorAHoy(System.String)">
+	<summary>
+ Si la fecha ingresada es mayor a HOY, devuelve true
+ </summary>
+	<param name="unaFecha"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Funciones.validadores.CadenaEstaVacia(System.DateTime)">
+	<summary>
+ Si la cadena = String.Empty devuelve true
+ </summary>
+	<param name="unaCadena"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Funciones.validadores.EsFechaValida(System.String)">
+	<summary>
+ Si el texto es fecha, retorna true, sino tira false
+ </summary>
+	<param name="unTexto"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Funciones.validadores.EsNumeroValido(System.Object)">
+	<summary>
+ Si el texto es numero, retorna true, sino false
+ </summary>
+	<param name="unTexto"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Funciones.validadores.VerificarEmail(System.String)">
+	<summary>
+ Devuelve TRUE si el mail es valido
+ </summary>
+	<param name="Valor">string de mail </param>
+	<returns>True si es valido</returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Funciones.validadores.VerificarIP(System.String)">
+	<summary>
+ Verifica que se corresponda con una direccion IP
+ </summary>
+	<returns>True si es valido</returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Funciones.validadores.VerificarPassword(System.String)">
+	<summary>
+ Verifica que la contraseña tenga minimo 8 caracteres con letras mayusculas minusculas, numeros y/o simbolos.
+ </summary>
+	<returns>True si es valido</returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Funciones.validadores.VerificarFecha(System.String)">
+	<summary>
+ Verifiva que la Fecha sea Valida
+ </summary>
+	<param name="Valor"></param>
+	<returns>True si es valido</returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Funciones.validadores.VerificarTarjeta(System.String)">
+	<summary>
+ Verifica el numero de tarjeta de Credito
+ </summary>
+	<param name="Valor">True si es valido</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Funciones.matematicas.redondear(System.Decimal,System.Int32)">
+	<summary>
+ ingreso un numero y lo redondea la cantidad de decimales deseada.
+ </summary>
+	<param name="unNumero">numero que se desea redondear</param>
+	<param name="cantidadDecimales">cantidad de decimales</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Funciones.matematicas.ObtenerNumeroAleatorio(System.Int32,System.Int32)">
+	<summary>
+ Entrega un numero aleatorio iniciando desde "DESDE" hasta "HASTA"
+ </summary>
+	<param name="desde"></param>
+	<param name="hasta"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Funciones.matematicas.CerosAlaIzquierda(System.Int32,System.Int32)">
+	<summary>
+ rellena la cantidad de ceros a la izquierda para llegar a la cantidad de caracteres que indica "cantidad de ceros"
+ ej: resultado = CerosAlaIzquierda(123, 5) ¨(resultado igual 00123)
+ </summary>
+	<param name="unNumero"></param>
+	<param name="CantidadCeros"></param>
+	<returns>string </returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Funciones.matematicas.AplicarDescuento(System.Int32,System.Int32)">
+	<summary>
+ devuelve el importe aplicando el descuento del porcentaje ingresado. (ejemplo: AplicarDescuento(100, 10) = 90)
+ </summary>
+	<param name="ImporteNeto"></param>
+	<param name="PorcentajeDescontar"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Funciones.Directorios.TraerSubcarpetas(System.String)">
+	<summary>
+ Trae una matriz de string con todas las subcarpetas
+ </summary>
+	<param name="Direccion">Direccion a Analizar</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Funciones.Directorios.TraerSubcarpetas(System.String,System.String)">
+	<summary>
+ Trae una matriz de string con todas las subcarpetas
+ </summary>
+	<param name="Direccion">Direccion a Analizar</param>
+	<param name="CadenaDeBusqueda">cadena de busqueda que debe coincidir con los nombres de los archivos de Direccion</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Funciones.Cadenas.largo(System.String)">
+	<summary>
+ entrega el largo de una cadena cantidad de caracteres.
+ </summary>
+	<param name="unaCadena">string a medir</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Funciones.Cadenas.CompararCadena(System.String,System.String)">
+	<summary>
+ compara los dos string si el resultado es positivo la primer cadena es mayor. si es negativo la segunda cadena es mayor
+ </summary>
+	<param name="unaCadena">primer string a comparar</param>
+	<param name="otraCadena">segundo string a comparar</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Funciones.Cadenas.MAYUSCULA(System.String)">
+	<summary>
+ convierte toda la cadena en mayuscula
+ </summary>
+	<param name="unaCadena"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Funciones.Cadenas.minuscula(System.String)">
+	<summary>
+ convierte toda la cadena en minuscula
+ </summary>
+	<param name="unaCadena"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Funciones.Cadenas.UnirLista(System.String,System.Collections.Generic.List{System.String})">
+	<summary>
+ recibe una lista de strings y un caracter y devuelve un string separado por dicho caracter
+ </summary>
+	<param name="listaCadena">lista de cadenas a unir</param>
+	<param name="unaCadena">caracter separador </param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Funciones.Cadenas.SepararLista(System.String,System.Char)">
+	<summary>
+ Toma una cadena de string y la convierte en una lista de strings separandolo por un caracter especial
+ </summary>
+	<param name="listaCadena">cadena a separa</param>
+	<param name="unCaracter">caracter especial que separa la cadena</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Funciones.Cadenas.DecorarLista(System.Collections.Generic.List{System.String},System.String,System.String)">
+	<summary>
+ Toma una lista de strings y le agrega caracteres especiales a la izquierda y a la derecha. devuelva la lista decorada
+ </summary>
+	<param name="listaCadena">lista a decorar</param>
+	<param name="DecoradoIzquierodo">caracter que se va a agregar a la izquierda</param>
+	<param name="DecoradoDerecho">caracter que se va a agregar a la derecha</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Funciones.Cadenas.BorrarBasuraIzquierda(System.String,System.String)">
+	<summary>
+ analiza una una cadena y borra los datos ubicados a la izquierda de la misma 
+ resultado= BorrarBasuraIzquierda(qwer@hola,@) (resultado = hola
+ </summary>
+	<param name="listaCadena">cadena a analizar</param>
+	<param name="unCaracter">parametro a comparar</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Funciones.Cadenas.BorrarBasuraDerecha(System.String,System.String)">
+	<summary>
+ analiza una una cadena y borra los datos ubicados a la derecha de la misma 
+ resultado= BorrarBasuraDerecha(hola@qwer,@) (resultado = hola
+ </summary>
+	<param name="listaCadena">cadena a analizar</param>
+	<param name="unCaracter">parametro a comparar</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Funciones.Cadenas.EntreMarcas(System.String,System.Char,System.Char)">
+	<summary>
+ analiza una una cadena y borra los datos ubicados entre las marcas
+ resultado= EntreMarcas(asdfa@hola@kajshd,@) (resultado = hola
+ </summary>
+	<param name="listaCadena">cadena a analizar</param>
+	<param name="PrimerMarca">parametro a comparar</param>
+	<param name="SegundaMarca">parametro a comparar</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Funciones.Cadenas.SioNO(System.Boolean)">
+	<summary>
+ ingresas el booleano, si es true devuelve si y si es false devuelve no 
+ </summary>
+	<param name="Acomprar"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Funciones.Cadenas.Reemplazar(System.String,System.String,System.String)">
+	<summary>
+ reemplaza segmentos de una cadena
+ ej resultado= Reemplazar("hola mundo","mundo", "cambio") | resultado= "hola cambio"
+ </summary>
+	<param name="CadenaAnalizar">Cadena a analizar</param>
+	<param name="CadenaBuscar">valor que se desea borrar para reemplazar</param>
+	<param name="CadenaReemplazar">valor que reemplaza al anterior</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Funciones.Cadenas.NombredelTipoVariable(System.Object)">
+	<summary>
+ Retorna el nombre del tipo de la variable | ej:NombredelTipoVariable("hola") resultado: string
+ </summary>
+	<param name="unObjeto"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Funciones.Cadenas.ConvertiraInteger(System.String)">
+	<summary>
+ transforma a integer
+ </summary>
+	<param name="unObjeto"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Funciones.Cadenas.StreamACadena(System.IO.Stream)">
+	<summary>
+ Transforma de stream a cadena 
+ </summary>
+	<param name="stream"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Funciones.Cadenas.CadenaABytes(System.String)">
+	<summary>
+ Devuelve el codigo ASCII de un string
+ </summary>
+	<param name="cadena"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Funciones.Cadenas.BytesACadena(System.Byte[])">
+	<summary>
+ Devuelve el codigo string de un ASCII
+ </summary>
+	<param name="bytes"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Funciones.Cadenas.ObtenerParametrosEnQuery(System.String)">
+	<summary>
+	</summary>
+	<param name="pConsulta"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Persistencia.Parametro.#ctor(System.String,System.Object)">
+	<summary>
+ en su inicializacion de deben cargar los siguientes parametros
+ </summary>
+	<param name="nombreParametro">Nombre del parametro que se desea enviar</param>
+	<param name="valor">valor del parametro a enviar</param>
+	<remarks></remarks>
+</member><member name="T:Ramos.Framework.Persistencia.Parametro">
+	<summary>
+ Contiene los parametros que deben ser enviados a la conexion 
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Funciones.fecha.Hoy">
+	<summary>
+ devuelve el dia de hoy
+ </summary>
+	<returns>dd/mm/aa</returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Funciones.fecha.Ahora">
+	<summary>
+ devuelve el dia de hoy y la hora
+ </summary>
+	<returns>dd/mm/aa hh:mm:ss</returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Funciones.fecha.UltimoDiaDelMesEnFecha(System.Int32,System.Int32)">
+	<summary>
+ Devuelve el ultimo dia del mes en la fecha especificada
+ </summary>
+	<param name="Mes">Mes</param>
+	<param name="Anio">Año</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Sistema.Registro.iniciarconwindows(System.String,System.String,System.Boolean)">
+	<summary>
+ Se llama a la función de esta manera:---- Framework.Sistema.Registry.iniciarconwindows(Application.ProductName.ToString, Application.ExecutablePath.ToString, True)--'True para activar--  'False para desactivar
+ </summary>
+	<param name="productname"></param>
+	<param name="executablepath"></param>
+	<param name="onoff"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Aplicaciones.MiAplicacion.NombreAplicacion">
+	<summary>
+ Devuelve el nombre de la aplicacion
+ </summary>
+	<returns>Nombre de la aplicacion</returns>
+	<remarks></remarks>
+</member><member name="M:Ramos.Framework.Aplicaciones.MiAplicacion.DirectorioAplicacion">
+	<summary>
+ Devuelve la path de la aplicacion
+ </summary>
+	<returns>La path de la aplicacion</returns>
+	<remarks></remarks>
+</member><member name="T:Ramos.Framework.Persistencia.ProveedorMySQL">
+	<summary>
+ Este proveedor permite realizar una conexion a un proveedor my SQL
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>
